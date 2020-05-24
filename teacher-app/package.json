@@ -1,28 +1,20 @@
 {
-  "name": "student-app",
+  "name": "teacher-app",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "10.15"
-  },
   "dependencies": {
+    "@material-ui/core": "^4.9.14",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "@types/form-data": "^2.5.0",
+    "@types/canvasjs": "^1.9.5",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
-    "@types/react": "^16.9.35",
-    "@types/react-dom": "^16.9.8",
-    "@types/rn-fetch-blob": "^1.2.1",
     "axios": "^0.19.2",
-    "form-data": "^3.0.0",
-    "guid-typescript": "^1.0.9",
+    "canvasjs": "^1.8.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "react-webcam": "^5.0.1",
-    "rn-fetch-blob": "^0.12.0",
     "typescript": "~3.7.2"
   },
   "scripts": {
@@ -45,5 +37,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-table": "^7.0.17",
+    "react-table": "^7.0.5",
+    "styled-components": "^5.1.0"
   }
 }

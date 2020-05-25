@@ -49,8 +49,6 @@ def add_to_database(faceResponse, user):
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
 
-    
-   
     try:
         face_client = FaceClient(ENDPOINT, CognitiveServicesCredentials(KEY))
         for input_file in req.files.values():
@@ -59,7 +57,6 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             image = Image.open(io.BytesIO(contents))
             logging.info(image)
             face_details = face_client.face.detect_with_stream(io.BytesIO(contents), False, True, return_face_attributes = list([FaceAttributeType.emotion]))
-            face_details[0].face_attributes.emotion.anger
             add_to_database(face_details[0], '123')
             # face_client.face.detect_with_stream(image, false, True, list[FaceAttributeType.emotion])
             # add to database.

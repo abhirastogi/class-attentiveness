@@ -10,7 +10,7 @@
     "@types/canvasjs": "^1.9.5",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "canvasjs": "^1.8.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

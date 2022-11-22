@@ -20,7 +20,7 @@
     "guid-typescript": "^1.0.9",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-webcam": "^5.0.1",
     "rn-fetch-blob": "^0.12.0",
     "typescript": "~3.7.2"
